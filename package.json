@@ -2,5 +2,14 @@
   "devDependencies": {
     "@types/node": "^22.10.1",
     "typescript": "^5.7.2"
-  }
+  },
+  
+    "name": "vscode-typescript-debugging",
+    "version": "1.0.0",
+    "scripts": {
+      "start": "node out/app.js",
+      "prestart": "npm run build",
+      "build": "tsc"
+    }
+  
 }
